@@ -1,0 +1,142 @@
+CRITICAL - 2022-04-09 10:21:03 --> Undefined variable: barang
+#0 D:\laragon\www\iventarisApp\app\Views\home\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 15, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Home.php(15): view('home/index', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-09 20:11:53 --> Undefined index: poto
+#0 D:\laragon\www\iventarisApp\app\Views\pegawai\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 31, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Pegawai.php(20): view('pegawai/index', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->index()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-09 20:16:15 --> Undefined index: poto
+#0 D:\laragon\www\iventarisApp\app\Views\pegawai\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 11, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/edit', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Pegawai.php(105): view('pegawai/edit', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->edit('7')
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-09 20:16:55 --> Undefined index: poto
+#0 D:\laragon\www\iventarisApp\app\Views\pegawai\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 11, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/edit', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Pegawai.php(105): view('pegawai/edit', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->edit('7')
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-09 20:25:55 --> Undefined index: no_hp
+#0 D:\laragon\www\iventarisApp\app\Views\pegawai\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('pegawai/index', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Pegawai.php(20): view('pegawai/index', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Pegawai->index()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-09 21:22:50 --> Undefined variable: pegawai
+#0 D:\laragon\www\iventarisApp\app\Views\barang\create.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 81, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(42): view('barang/create', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->create()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-09 21:25:27 --> Unknown column 'barang.id_pegawai' in 'on clause'
+CRITICAL - 2022-04-09 21:25:27 --> Unknown column 'barang.id_pegawai' in 'on clause'
+#0 D:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+ERROR - 2022-04-09 21:26:16 --> Unknown column 'barang.id_pegawai' in 'on clause'
+CRITICAL - 2022-04-09 21:26:16 --> Unknown column 'barang.id_pegawai' in 'on clause'
+#0 D:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(20): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-04-09 21:27:05 --> Undefined index: tahun_pembelian
+#0 D:\laragon\www\iventarisApp\app\Views\barang\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 38, Array)
+#1 D:\laragon\www\iventarisApp\system\View\View.php(210): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\iventarisApp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\laragon\www\iventarisApp\system\Common.php(1089): CodeIgniter\View\View->render('barang/index', Array, true)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(22): view('barang/index', Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-09 21:44:19 --> Undefined index: harga_barang
+#0 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 151, Array)
+#1 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->export()
+#2 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#6 {main}
+ERROR - 2022-04-09 22:42:18 --> Duplicate entry '11' for key 'PRIMARY'
+CRITICAL - 2022-04-09 22:42:18 --> Duplicate entry '11' for key 'PRIMARY'
+#0 D:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-09 22:42:55 --> Duplicate entry '11' for key 'PRIMARY'
+CRITICAL - 2022-04-09 22:42:55 --> Duplicate entry '11' for key 'PRIMARY'
+#0 D:\laragon\www\iventarisApp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\laragon\www\iventarisApp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\laragon\www\iventarisApp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\laragon\www\iventarisApp\app\Controllers\Barang.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\laragon\www\iventarisApp\system\CodeIgniter.php(825): App\Controllers\Barang->save()
+#6 D:\laragon\www\iventarisApp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 D:\laragon\www\iventarisApp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\iventarisApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\laragon\www\iventarisApp\system\Commands\Server\rewrite.php(43): require_once('D:\\laragon\\www\\...')
+#10 {main}
